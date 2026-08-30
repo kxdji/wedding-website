@@ -1,12 +1,5 @@
-# Abram & Danielle — Wedding Website
+## Project Structure
 
-A clean, modern, and responsive wedding website for Abram & Danielle (January 7, 2027 · The Abba's Orchard, Cagayan de Oro City).
-
----
-
-## 📁 Project Structure
-
-```text
 wedding-website/
 ├── index.html                  # Main website markup & script logic
 ├── css/
@@ -35,33 +28,20 @@ wedding-website/
     ├── gallery-11.jpg          # Gallery photo 11
     ├── gallery-12.jpg          # Gallery photo 12
     └── gallery-13.jpg          # Gallery photo 13
-```
 
 ---
-## 🚀 Deployment to GitHub & Vercel
+## Update 
 
-### Step 1: Upload to GitHub
-1. Create a new repository on [GitHub](https://github.com/new) (e.g. `abram-dee-wedding`).
-2. Open terminal in the `wedding-website` folder and run:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit of wedding website"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/abram-dee-wedding.git
-   git push -u origin main
-   ```
-
-### Step 2: Deploy on Vercel
-1. Go to [Vercel](https://vercel.com/) and click **"Add New..." > "Project"**.
-2. Connect your GitHub account and select the `abram-dee-wedding` repository.
-3. Keep default settings (Framework Preset: **Other**, Root Directory: `./`).
-4. Click **Deploy**.
-5. In ~15 seconds, your wedding website is live with an SSL HTTPS link!
+1. git checkout -b feature-name (Make your new branch)
+2. Do your coding...
+3. git add . && git commit -m "Add new feature"
+4. git checkout main
+5. git merge feature-name
+6. git push origin main
 
 ---
 
-## 📝 RSVP & Google Sheets Integration
+## RSVP & Google Sheets Integration
 RSVP submissions are posted automatically to your Google Apps Script Web App endpoint.
 The spreadsheet columns collected:
 - `Timestamp`
