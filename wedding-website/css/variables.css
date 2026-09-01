@@ -1,0 +1,9 @@
+:root {
+    --bg-color: #FAF9F5;
+    --text-main: #1A1A1A;
+    --accent-gray: #6E6A66;
+    --muted-taupe: #C5BCB3;
+    --card-bg: #FFFFFF;
+    --border-light: rgba(110, 106, 102, 0.18);
+    --max-width: 1040px;
+}
